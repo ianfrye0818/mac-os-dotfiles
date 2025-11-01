@@ -1,0 +1,145 @@
+[font]
+normal.family = "JetBrainsMonoNL Nerd Font Mono"
+size = 14.0
+
+[window]
+startup_mode = "Maximized"
+
+[general]
+import = ["~/.config/alacritty/themes/themes/catppuccin_mocha.toml"]
+
+# Alt + Left / Right to jump by word
+[[keyboard.bindings]]
+key = "Left"
+mods = "Alt"
+chars = "\u001bb"
+
+[[keyboard.bindings]]
+key = "Right"
+mods = "Alt"
+chars = "\u001bf"
+
+
+# Command + Left / Right to jump to the start / end of the line
+[[keyboard.bindings]]
+key = "Left"
+mods = "Command"
+chars = "\u0001"
+
+[[keyboard.bindings]]
+key = "Right"
+mods = "Command"
+chars = "\u0005"
+
+
+# Delete word backwoards (Option + Backspace)
+[[keyboard.bindings]]
+key = "Back"
+mods = "Alt"
+chars = "\u0017"
+
+# Delete word forward (Option + Delete)
+[[keyboard.bindings]]
+key = "Delete"
+mods = "Alt"
+chars = "\u001bd"
+
+#Delete to the start of a line (Command + Backspace)
+[[keyboard.bindings]]
+key = "Back"
+mods = "Command"
+chars = "\u0015"
+
+# Delete to the end of the line (Command + Delete)
+[[keyboard.bindings]]
+key = "Delete"
+mods = "Command"
+chars = "\u000b"
+
+# New Terminal Window (Command + N)
+[[keyboard.bindings]]
+key = "N"
+mods = "Command"
+action = "CreateNewWindow"
+
+#New Terminal Tab (Command + T)
+[[keyboard.bindings]]
+key = "T"
+mods = "Command"
+action = "CreateNewTab"
+
+# Close Terminal Tab (Command + W)
+[[keyboard.bindings]]
+key = "W"
+mods = "Command"
+action = "Quit"
+
+# Switch Tabs (Command + 1 - 9)
+[[keyboard.bindings]]
+key = "Key1"
+mods = "Command"
+action = "SelectTab1"
+
+
+[[keyboard.bindings]]
+key = "Key2"
+mods = "Command"
+action = "SelectTab2"
+
+[[keyboard.bindings]]
+key = "Key3"
+mods = "Command"
+action = "SelectTab3"
+
+[[keyboard.bindings]]
+key = "Key4"
+mods = "Command"
+action = "SelectTab4"
+
+[[keyboard.bindings]]
+key = "Key5"
+mods = "Command"
+action = "SelectTab5"
+
+[[keyboard.bindings]]
+key = "Key6"
+mods = "Command"
+action = "SelectTab6"
+
+[[keyboard.bindings]]
+key = "Key7"
+mods = "Command"
+action = "SelectTab7"
+
+[[keyboard.bindings]]
+key = "Key8"
+mods = "Command"
+action = "SelectTab8"
+
+[[keyboard.bindings]]
+key = "Key9"
+mods = "Command"
+action = "SelectTab9"
+
+# Font size adjustments
+[[keyboard.bindings]]
+key = "Plus"
+Mods = "Command"
+action = "IncreaseFontSize"
+
+[[keyboard.bindings]]
+key = "Minus"
+Mods = "Command"
+action = "DecreaseFontSize"
+
+[[keyboard.bindings]]
+Key = "0"
+Mods = "Command"
+action = "ResetFontSize"
+
+# Clear the screen (Command + K)
+[[keyboard.bindings]]
+key = "K"
+mods = "Command"
+chars = "\u000c"
+
